@@ -16,7 +16,7 @@ const app = express();
 
 app.use(cors()); 
 app.use(cors({
-    origin: 'https://bookstore-phi-nine.vercel.app/', // frontend origin
+    origin: 'https://bookstore-phi-nine.vercel.app', // frontend origin
     credentials: true // if you're using cookies/auth
   }));
 app.use(express.json()); 
